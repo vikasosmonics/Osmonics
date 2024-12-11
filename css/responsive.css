@@ -1,0 +1,513 @@
+ @media only screen and (max-width: 1300px) {
+     .bg1::after {
+         width: 791px;
+     }
+     .referal-img {
+         margin-left: 0;
+     }
+     .referal-img img {
+         width: 100%;
+     }
+     .section-7::after {
+         display: none;
+         content: inherit;
+     }
+     .section-5::before {
+         display: none;
+         content: inherit;
+     }
+     .section-3::before {
+         left: 0;
+     }
+     .section-4::before {
+         display: none;
+         content: inherit;
+     }
+     .section-4::after {
+         display: none;
+         content: inherit;
+     }
+     .works-info li:nth-child(2) {
+         left: 30px;
+     }
+     .works-info::after {
+         left: -71px;
+     }
+     .works-info li:nth-child(1) {
+         left: -44px;
+     }
+     .works-info li:nth-child(3) {
+         left: -51px;
+     }
+     .abt-img img {
+         width: 100%;
+     }
+     .abt-img {
+         margin-left: 0;
+     }
+     .plan-block {
+         width: 87%;
+     }
+     .side-head.depo {
+         display: none;
+     }
+     .payment-list-detail li {
+         padding: 10px 4px;
+     }
+     .despoit-info::before {
+         left: -118px;
+         top: 0;
+         z-index: 1;
+     }
+ }
+
+ @media only screen and (max-width: 1199px) {
+     .navbar-nav li a {
+         padding: 11px 10px 11px 10px;
+     }
+     .login-info a {
+         margin: 0 0 0 5px;
+     }
+     .bg1::after {
+         width: 640px;
+     }
+     .banner p {
+         width: 39%;
+     }
+     .abt-box p {
+         font-size: 14px;
+     }
+     .abt-info p {
+         font-size: 15px;
+     }
+     .abt-box h5 {
+         font-size: 17px;
+     }
+     .works-info::after {
+         display: none;
+         content: inherit;
+     }
+     .works-info li:nth-child(1) {
+         left: inherit;
+         top: inherit;
+     }
+     .works-info li:nth-child(2) {
+         left: inherit;
+         top: inherit;
+     }
+     .works-info li:nth-child(3) {
+         left: inherit;
+         top: inherit;
+     }
+     .works-info li {
+         padding: 20px 0 5px 0;
+     }
+     .works-info {
+         padding-top: 65px;
+     }
+     .plan-block {
+         width: 100%;
+     }
+     .plan-top {
+         background: #c95b8d;
+     }
+     .plan-top::after {
+         display: none;
+         content: inherit;
+     }
+     .plan-top h5 {
+         text-align: center;
+     }
+     .plan-top {
+         padding-bottom: 7px;
+     }
+     .plan-info {
+         padding: 10px 0;
+     }
+     .ssl-info {
+         width: 100%;
+     }
+     .ssl-info {
+         width: 100%;
+         text-align: center;
+     }
+     .sec-img {
+         margin-top: 0;
+         display: inline-block;
+         width: 100%;
+         text-align: center;
+     }
+     .despoit-info::before {
+         display: none;
+         content: inherit;
+     }
+     .despoit-info {
+         width: 100%;
+         margin: auto;
+     }
+     .despoit-info .form_block {
+         width: 94%;
+         margin-right: 0;
+         text-align: center;
+         margin: 0 14px;
+     }
+     .payment-list-detail {
+         width: 100%;
+         margin: 9px 0 0 0;
+     }
+     .despoit-info h5 {
+         margin-top: 0;
+         margin-left: 0;
+         padding: 0;
+         padding-bottom: 20px;
+     }
+     .abt-info h4 {
+         font-size: 25px;
+     }
+ }
+
+ @media only screen and (max-width: 991px) {
+     .section-2::before {
+         top: 64px;
+     }
+     .bg1::before {
+         display: none;
+         content: inherit;
+     }
+     .bg1::after {
+         display: none;
+         content: inherit;
+     }
+     .banner {
+         text-align: center;
+     }
+     .banner p {
+         width: 100%;
+     }
+     .bg1 {
+         padding: 30px 0 20px 0;
+     }
+     .bg1 {
+         padding: 15px 0 15px 0;
+     }
+     .support-info li h5 {
+         text-align: left;
+     }
+     .support-info {
+         width: 100%;
+         text-align: center;
+     }
+     .navigation-info {
+         float: none;
+         width: 100%;
+         text-align: center;
+     }
+     .logo {
+         width: 100%;
+         text-align: center;
+         padding: 20px 0;
+     }
+     .vdo {
+         margin-top: -56px;
+         margin-left: 0;
+     }
+     .section-2 {
+         padding: 0 0 30px 0;
+     }
+     .section-3::before {
+         display: none;
+         content: inherit;
+     }
+     .section-3::after {
+         left: 0;
+         display: none;
+         content: inherit;
+     }
+     .works-img::after {
+         display: none;
+         content: inherit;
+     }
+     .works-img {
+         padding-top: 0;
+     }
+     .works-info {
+         padding-top: 0;
+     }
+     .referal-block {
+         text-align: center;
+     }
+     .foot-links li {
+         display: inline-block;
+         padding: 0 5px;
+     }
+     .form_block i {
+         right: 0;
+     }
+     .form_block span::after {
+         right: 0;
+     }
+ }
+
+ @media only screen and (max-width:767px) {
+     .plan-block {
+         margin: 80px 0 20px 0;
+     }
+     .transaction-info small {
+         font-size: 14px;
+     }
+     .bg2 {
+         background: #552f90 !important;
+     }
+     .logo-foot {
+         text-align: center;
+         padding-bottom: 15px;
+     }
+     .payment-block {
+         padding: 10px 0;
+     }
+     .foot-links {
+         text-align: center;
+     }
+     .cpy-rgt {
+         text-align: center;
+     }
+     .social-links {
+         text-align: center;
+         padding-top: 20px;
+     }
+     .bg1 {
+         background: #dfd3eb !important;
+     }
+     #navbarResponsive {
+         width: 100%;
+     }
+     .main-menu {
+         display: inline-block;
+         text-align: left;
+         float: left;
+         font-size: 16px;
+         margin: 0;
+         padding: 9px 5px;
+     }
+     .navbar-nav li a {
+         padding: 1px 0;
+         width: 100%;
+         display: inline-block;
+         border-radius: inherit;
+         text-align: left;
+         padding: 2px 6px;
+     }
+     .navbar-nav.ml-auto {
+         padding-top: 3px;
+     }
+     .navbar-toggler {
+         padding: 3px 7px;
+         font-size: 19px;
+     }
+     .navbar-nav li a {
+         border-radius: inherit;
+     }
+     .navbar-toggler:focus,
+     .navbar-toggler:hover {
+         outline: none !important;
+     }
+     .nav-item {
+         width: 100%;
+         display: inline-block;
+     }
+     .ml-auto,
+     .mx-auto {
+         margin-left: auto !important;
+         width: 100%;
+         margin-right: auto !important;
+     }
+     .navbar-toggler {
+         display: inline-block;
+         float: right;
+     }
+     .navbar {
+         display: inline-block;
+         width: 100%;
+         background: #d7bffc;
+         padding: 5px 9px;
+         border-radius: 5px;
+     }
+     .login-info {
+         display: inline-block;
+         width: 100%;
+         text-align: center;
+         padding: 10px 0;
+     }
+     .section-2::before {
+         display: none;
+         content: inherit;
+     }
+     .vdo a {
+         width: inherit;
+         height: inherit;
+         background: #552f90;
+     }
+     .stats-block .owl-nav {
+         padding: 18px 0;
+     }
+     .stat-2 {
+         bottom: inherit;
+     }
+     .vdo a i {
+         color: #fff;
+         background: #552f8c;
+         width: 50px;
+         height: 50px;
+         padding-top: 18px;
+     }
+     .abt-info {
+         text-align: center;
+     }
+     .vdo {
+         margin-top: 25px;
+         text-align: center;
+         width: inherit;
+     }
+     .transaction-info {
+         display: inline-block;
+     }
+     .payment-info {
+         margin: 0 0;
+     }
+     .transaction-info {
+         display: inline-block;
+         width: 100%;
+         background: #d7bffc;
+         text-align: center;
+     }
+     .foot-info {
+         padding: 20px 0;
+     }
+     .bg2 {
+         padding: 20px 0 10px 0 !important;
+     }
+     .foot-links li a {
+         font-size: 13px;
+     }
+     .foot-bottom {
+         padding: 20px 0 10px 0;
+     }
+     .bg1 {
+         padding: 10px 0 20px 0 !important;
+     }
+     .stats-block .owl-item {
+         margin-bottom: 0;
+     }
+     .section-3 {
+         padding: 20px 0 0 0;
+     }
+     .abt-head {
+         padding: 25px 0 10px;
+     }
+     .abt-head h4 {
+         font-size: 38px;
+     }
+     .inner-bg1 {
+         background: #270f47 !important;
+     }
+     .inner-pg .navbar-nav li a {
+         color: #693ba1;
+     }
+     .works-info li:nth-child(3) {
+         bottom: 0;
+     }
+     .heading h4 {
+         font-size: 29px;
+     }
+     .abt-block {
+         padding: 16px 0 15px 0;
+     }
+     .abt-info h4 {
+         font-size: 24px;
+     }
+     .form-btns {
+         display: inline-block;
+         float: none;
+         text-align: center;
+         width: 100%;
+     }
+     .form-btns {
+         text-align: center;
+         width: 100%;
+     }
+     .logo-inner {
+         text-align: center;
+         padding-bottom: 20px;
+     }
+     .form-heading span {
+         font-size: 14px;
+     }
+     .msg {
+         width: 100%;
+     }
+     .form_block i {
+         right: 0;
+     }
+     .form_block span::after {
+         right: 0;
+     }
+     .form_block {
+         margin: 10px 0;
+     }
+ }
+
+ @media only screen and (max-width:650px) {
+     .abt-detail ul li h5 {
+         font-size: 16px;
+         width: 100%;
+         text-align: center;
+         padding-left: 0;
+     }
+     .abt-detail ul li {
+         text-align: center;
+         padding: 10px 0;
+     }
+     .abt-detail li i {
+         margin-bottom: 20px;
+     }
+     .support-info li {
+         display: inline-block;
+         padding-right: 0;
+         padding-top: 14px;
+         width: 100%;
+         text-align: center;
+     }
+     .support-info {
+         padding: 10px 0;
+     }
+     .info-link {
+         font-size: 13px;
+         padding-left: 0;
+     }
+     .banner h2 {
+         font-size: 30px;
+         padding: 14px 0;
+     }
+     .banner p {
+         margin-bottom: 20px;
+     }
+     .works-info li span {
+         margin-left: 0;
+         display: inline-block;
+         width: 100%;
+         text-align: center;
+         border-radius: inherit;
+     }
+     .works-info li {
+         padding: 5px 0 5px 0;
+     }
+     .work-p {
+         width: 100%;
+         padding-left: 0;
+         padding-top: 15px;
+         text-align: center;
+     }
+     .abt-block {
+         text-align: center;
+     }
+ }
