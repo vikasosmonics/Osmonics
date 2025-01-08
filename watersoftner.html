@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Softener Plant</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .hero {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .flowchart {
+            margin-top: 20px;
+        }
+        .sample-snap img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+        }
+        .interactive-button {
+            margin-top: 15px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="hero text-center">
+            <h1>Water Softener Plant</h1>
+        </header>
+
+        <div class="content">
+            <h2>About the Water Softener Plant</h2>
+            <p>A water softener removes minerals like calcium and magnesium that create hard water before it enters your water heater or home. When hardness minerals combine with heat, scale forms and clogs plumbing pipes, water heaters, and other appliances. When combined with soap, calcium and magnesium form scum that accumulates on plumbing and fixtures and makes your skin dry and itchy, your hair lifeless, and your laundry dull.</p>
+
+            <button class="btn btn-primary interactive-button" onclick="toggleDetails('aboutDetails')">Learn More</button>
+            <div id="aboutDetails" class="hidden">
+                <p>Water collects minerals from the soil through calcium, magnesium, and other metallic elements. These minerals make your water hard, and it is called hard water. Hard water is water rich in calcium and magnesium. Hard water naturally occurs when water is injected with calcium carbonate or magnesium carbonate.</p>
+
+                <p>Water is an excellent solvent and dissolves these minerals that create scale and other problems leading to additional expenses and maintenance. When the hardness of water exceeds 120 ppm, it is considered hard water. Without treating that water, we could not use it.</p>
+            </div>
+
+          
+            <div class="application">
+                <h3>Application</h3>
+                <ul>
+                    <li>House</li>
+                    <li>Hospitals</li>
+                    <li>Hotels</li>
+                    <li>Schools</li>
+                    <li>Restaurants</li>
+                    <li>All places like wherever they have hard water problems</li>
+                </ul>
+            </div>
+
+            <div class="description">
+                <h3>Description</h3>
+                <button class="btn btn-primary interactive-button" onclick="toggleDetails('descriptionDetails')">Learn More</button>
+                <div id="descriptionDetails" class="hidden">
+                    <p>The water softener contains a tank full of resin beads looking for positively-charged ions. The beads capture calcium and magnesium, which stick to the resin beads, which are drastically removed from the water.</p>
+
+                    <p>Once the adhesive beads are hard coated, the water should be softened and regenerated. Salt sits in the bottom of the salt tank or in particles. When water flows through the salt tank, it contacts salt and creates a sodium solution called salt water.</p>
+
+                    <p>The resin beads are bombarded with salt, so they surrender the calcium and magnesium ions and send them to the drain. Salt in the brine tank recharges the resin with sodium ions, so the softener is ready to treat water again. Water softener does not reduce total dissolved solids (TDS). In fact, it adds solids soluble in water. Removing TDS after softening is very effective. A water softener exchanges calcium and magnesium ions for two to one sodium ions: two sodium ions for each mineral ion.</p>
+
+                    <p>The amount of sodium added to soft water is very low, but mothers who are on a reduced sodium diet or who have children in infant formula may be concerned. A reverse osmosis system installed after a softener will remove any excess sodium from the water. Use a DTS meter to determine the amount of solids in your water after softening. Potassium chloride is an alternative to softening salt, but it is three times more expensive and a maintenance nightmare. Potassium moves easily, resulting in softening and cleaning of the extra salt tank.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+        function toggleDetails(id) {
+            const element = document.getElementById(id);
+            if (element.classList.contains('hidden')) {
+                element.classList.remove('hidden');
+            } else {
+                element.classList.add('hidden');
+            }
+        }
+
+        console.log("Water Softener Plant Page Loaded");
+    </script>
+</body>
+</html>
